@@ -24,8 +24,6 @@ $$O(1)$$
 
 ## Code
 ```
-class Solution {
-public:
 
     int foundpart(string s, string part){
         int i=0;
@@ -52,5 +50,4 @@ public:
         }
         return s;
     }
-};
 ```
