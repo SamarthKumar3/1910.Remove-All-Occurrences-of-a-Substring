@@ -1,9 +1,9 @@
-# 1910.Remove-All-Occurrences-of-a-Substring
+# 1910.Remove All Occurrences of a Substring 
 
 ## Intuition
 We need to loop through string to find and erase all possible combinations of given substring using inbuilt functions.
 
-## Approach
+## Naive Approach
 - Declare a function to find the valid positions of given substring.
     - Loop through all string values using *while*
     - Use ***Find*** function, which returns *npos* value (no position) if given substring has not been found OR returns the *first occurence* of the substring
